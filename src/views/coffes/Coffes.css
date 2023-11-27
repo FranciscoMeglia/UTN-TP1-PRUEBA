@@ -1,0 +1,28 @@
+.coffes {
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.coffes .coffes-container {
+    width: 90%;
+    margin: auto;
+    min-height: calc(100vh - 80px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffes .coffes-container .cards-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+

@@ -1,0 +1,38 @@
+.card {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card:hover > .card-info {
+    opacity: 1;
+}
+
+.card .card-info {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.411);
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card .card-info h3 {
+    color: white;
+    margin-left: 10px;
+}
